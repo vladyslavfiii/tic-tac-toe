@@ -1,0 +1,153 @@
+body{
+	width: 100%;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
+	background: #696969;
+
+	margin:  0px;
+	padding: 0px;
+}
+.ticTacToe{
+	width: 100%;
+	height: 1000px;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
+	margin: 0;
+	padding: 0;
+}
+.ticTacToeTable{
+	width: 750px;
+	height: 750px;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
+	border: 1px solid white;
+	background: #303030;
+}
+.ticTacToeScore{
+	width: 750px;
+	height: 100px;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
+	border: 1px solid white;
+	background: #303030;
+
+	margin-top: 10px;
+}
+.ticTacToeScoreBlock{
+	width: 700px;
+	height: 50px;
+
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+.ticTacToeScoreBlockValue{
+	width: 300px;
+	height: 50px;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
+	font-family:Consolas;
+	font-size: 30px;
+	color: white;
+
+	border: 1px solid white;
+	background: #303030;
+}
+.ticTacToeButton{
+	width: 750px;
+	height: 100px;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
+	border: 1px solid white;
+	background: #303030;
+
+	margin-top: 10px;
+}
+.restart{
+	width: 700px;
+	height: 50px;
+
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+
+	border: 0px;
+	background: #42b883;
+
+	font-family:Consolas;
+	font-size: 30px;
+}
+table{
+	width: 700px;
+	height: 700px;
+
+	table-layout: fixed;
+
+  	border: 0.5px solid white;
+  	border-spacing: 0;
+  	border-collapse: 0;
+}
+td{
+	width: 200px;
+	height: 200px;
+	
+	font-family: arial black ;
+	font-size: 125px;
+	text-align: center;
+	color: #42b883;
+
+	border: 0.5px solid white;
+
+	position: relative;
+}
+th{
+	width: 200px;
+	height: 200px;
+
+	border: 0.5px solid white;
+}
+.win{
+	width: 100%;
+	height: 100px;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
+	position: absolute;
+	font-family: Consolas;
+	font-size: 30px;
+	color: black;
+
+	border: 1px solid white;
+	background: #42b883;
+
+	z-index: 200;
+}
